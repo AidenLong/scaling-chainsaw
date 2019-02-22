@@ -1,4 +1,4 @@
-package com.me.code;
+package com.me.ready.code;
 
 import java.lang.reflect.Field;
 

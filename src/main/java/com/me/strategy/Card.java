@@ -20,6 +20,7 @@ public abstract class Card implements PaymentMethod {
     @Override
     public void pay(int cents) {
         System.out.println("use " + getType() + " pay cents: " + cents);
+        exectuTransaction(cents);
     }
 
     protected abstract String getType();
