@@ -6,8 +6,8 @@ package com.me.ready.node;
  **/
 public class ListNode {
 
-    int data;
-    ListNode next;
+    public int data;
+    public ListNode next;
 
     public ListNode(int data) {
         this.data = data;
